@@ -1,7 +1,7 @@
 
 .navbar {
     overflow: hidden;
-    background-color: grey;
+    background-color:darkgreen;
     position: fixed;
     top: 0;
     width: 100%;
@@ -20,8 +20,8 @@
 }
 
 .navbar a:hover {
-    background: black;
-    color: white;
+    background: green;
+    color: b;
 }
 
 .main {
@@ -32,11 +32,14 @@
 
 li a:hover {
     background-color: skyblue;
-    color: black;
+    color: cyan;
 }
 
 body {
-    background-color: grey
+    background-color: grey;
+    margin: 0;
+    background-color: black;
+     /* background-image: url(""); #use for background images */
 }
 
 .column {
@@ -51,17 +54,6 @@ body {
     display: table;
 }
 
-img src {
-    align-self: center;
-    margin: 3000px;
-}
-
-
-body {
-    background-color: black;
-     /* background-image: url(""); #use for background images */
-}
-
 h1 {
     color: grey;
     font-size: 45px;
@@ -69,23 +61,63 @@ h1 {
 }
 
 h2 {
-    color: grey;
+    color: green;
     font-size: 20px;
     font-family: 'F37 Ginger', sans-serif;
+    margin: 10;
 }
 
 h3 {
     color: grey;
     font-size: 16px;
+    font-family: 'F37 Ginger', sans-serif;
+    margin:10px;
 }
-
-p {
-    font-family: "Open Sans", "Lucida Sans", sans-serif;
+h6 {
     color: grey;
     font-size: 16px;
+    font-family: 'F37 Ginger', sans-serif;
+}
+p {
+    font-family: "Open Sans", "Lucida Sans", sans-serif;
+    color: black;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    width: 645px;
+    height: 190px;
+    border: 15px solid green;
+   
+}
+ p2 {
+    font-family: "Open Sans", "Lucida Sans", sans-serif;
+    color: black;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    width: 645px;
+    height: 90px;
+    border: 15px solid green;
+}
+source {
+    margin: 10px;
+
 }
 
 /* div {
+    background-color: lightgrey;
+    width: 645px;
+    height: 240px;
+    border: 15px solid grey;
+    padding: 22px;
+    margin: 0px;
+    font-family: "Open Sans", "Lucida Sans", sans-serif;
+    color: grey;
+    font-size: 16px; /*
+}
+ /* div1 {
     background-color: lightgrey;
     width: 645px;
     height: 240px;
